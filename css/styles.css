@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+  
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black; 
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content:flex-end;
+    padding-right: 60px;
+}
+
+.nav-link{
+  color: #9f816f;
+  font-size: medium;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left:20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link:hover{
+  color: #fff;
+  background-color: #9f816f;
+  border-radius: 20px;
+}
+
+/* ------------------- presentacion _________*/
+
+.presentacion{
+    text-align: center;
+    padding: 50px;
+    background-color: cadetblue;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.presentacion h1{
+  font-weight: bold;
+}
+
+.presentacion h2{
+  font-style: italic;
+}
+
+.presentacion p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+}
+
+.presentacion p a:hover{
+    color:#756860;
+}
+
+/*------------------- proyectos ------------- */
+
+.proyectos{
+    background-color: #fff5ef;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.proyectos h2{
+    color:#756860;
+    background-color: #fff;
+    padding: 30px;
+    font-weight:550;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "proyecto1 proyecto2 proyecto3"
+      "proyecto4 proyecto4 proyecto4";
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "proyecto1"
+        "proyecto2"
+        "proyecto3"
+        "proyecto4";
+    }
+  }
+  
+  .proyecto1 { grid-area: proyecto1; }
+  
+  .proyecto2 { grid-area: proyecto2; }
+  
+  .proyecto3 { grid-area: proyecto3; }
+  
+  .proyecto4 { grid-area: proyecto4; }
+  
+  .imgProyecto{
+    width: 100%;
+  }
+
+  .imgApp{
+    width: 100%;
+  }
+
+  .proyecto1{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+
+  .proyecto1:hover{
+    transform: scale(1.05);
+  }
+
+  .proyecto1 h3{
+    font-size: large;
+    padding-top: 10px;
+  }
+
+  .proyecto2{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+
+  .proyecto2:hover{
+    transform: scale(1.05);
+  }
+
+  .proyecto2 h3{
+    font-size: large;
+    padding-top: 10px;
+  }
+
+  .proyecto3{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+
+  .proyecto3:hover{
+    transform: scale(1.05);
+  }
+
+  .proyecto3 h3{
+    font-size: large;
+    padding-top: 10px;
+  }
+
+  .proyecto4{
+    width: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .proyecto4 h3{
+    font-size: large;
+    padding-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .proyecto1 {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .proyecto2{
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .proyecto3{
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .proyecto4{
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .imgApp{
+      width: 100%;
+    }
+  }
+
+/*----------------- contacto ----------------- */
+
+  .contacto{
+    text-align: center;
+    padding: 50px;
+    background-color: cadetblue;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contacto h2{
+    margin-bottom: 10px;
+}
+
+.contacto div a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contacto div a:hover{
+  color:#756860;
+}
+
+.contacto div i{
+    padding: 10px;
+    font-size: large;
+}

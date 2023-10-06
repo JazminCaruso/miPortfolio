@@ -1,0 +1,189 @@
+/* ---------- navbar ----------- */
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content:flex-end;
+    padding-right: 60px;
+}
+
+.nav-link{
+    color: #9f816f;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link:hover{
+    color: #fff;
+    background-color: #9f816f;
+    border-radius: 20px;
+}
+
+/*------------ info personal ----------------*/
+
+.informacionPersonal {
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.presentacion1 {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.presentacion2 {
+    width: 70%;
+}
+
+.miFoto {
+    display: block;
+    margin-left: 10%;
+    width: 50%;
+    border-radius: 10%;
+    margin: 0px auto;
+    border: 5px solid #feeade;
+    margin-top: 10%;
+}
+
+.misDatos {
+    text-align: justify;
+}
+
+.misDatos h2 {
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.misDatos h3 {
+    font-size:x-large;
+    font-style: italic;
+}
+
+.textoAcercaDe {
+    padding-right: 10%;
+    text-align:justify;
+}
+
+.datos{
+    text-align: center;
+    color: #fff5ef;
+    margin-top: 10px;
+    font-size:small;
+}
+
+@media (max-width: 768px) {
+    .informacionPersonal{
+        display: block;
+        padding-bottom: 10px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .presentacion1{
+        width: 100%;
+    }
+
+    .presentacion2{
+        width: 100%;
+    }
+
+    .misDatos{
+        text-align: center;
+    }
+
+    .textoAcercaDe{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  }
+
+/*----------------------- aptitudes -------------------------*/
+
+.aptitudes{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #fff5ef;
+    padding-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aptitudes h3{
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+    color: #756860;
+    width: 100%;
+    font-weight:550;
+}
+
+.aptitudes ul {
+    list-style: square; 
+    margin: 0; 
+    padding-top: 10px; 
+  }
+
+  ::marker{
+    color: cadetblue;
+  }
+  
+.aptitudes-container {
+    display: flex;
+    align-items: center; 
+  }
+
+  .aptitudes-container img {
+    max-width: 400px; 
+    margin-right: 20px; 
+  }
+
+  @media (max-width: 768px) {
+    .aptitudes-container{
+        display: block;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .aptitudes-container img {
+        margin: 0 auto; 
+      }
+}
+
+/*---------------- contacto ------------- */
+  
+  .contacto{
+    text-align: center;
+    padding: 50px;
+    background-color: cadetblue;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto h2{
+    margin-bottom: 10px;
+}
+
+.contacto div a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contacto div a:hover{
+    color:#756860;
+}
+
+.contacto div i{
+    padding: 10px;
+    font-size: large;
+}

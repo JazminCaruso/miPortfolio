@@ -1,0 +1,225 @@
+/* ---------- navbar ----------- */
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content:flex-end;
+    padding-right: 60px;
+}
+
+.nav-link{
+    color: #9f816f;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link:hover{
+    color: #fff;
+    background-color: #9f816f;
+    border-radius: 20px;
+}
+
+/*------------ info personal ----------------*/
+
+.informacionPersonal {
+    align-items: center;
+    background-color: cadetblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.informacionPersonal h2{
+    font-weight: bold;
+}
+
+.informacionPersonal h3{
+    font-style: italic;
+}
+
+
+/* ------------------------- educacion ------------------------- */
+
+.educacion {
+    background-color: rgb(202, 202, 202);
+    padding-bottom: 2%;
+    background-color: #fff5ef;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tituloEducacion{
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+    color: #756860;
+    font-weight:550;
+}
+
+.titulos {
+    margin-top: 2%;
+    display: flex;
+    align-items:flex-start;
+    color: #9f816f;
+}
+
+.tituloImagenEducacion{
+color: #333;
+}
+
+.educacion1 {
+    width: 40%;
+}
+
+.educacion2 {
+    margin-top: 1%;
+    width: 60%;
+}
+
+.fotoEducacionRed {
+    display: block;
+    margin-left: 15%;
+    width: 18%;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+.tituloImagenEducacion {
+    text-align: center;
+    font-size: medium;
+    padding-top: 10px;
+}
+
+.subtituloEducacion {
+    margin-bottom: 1%;
+}
+
+@media (max-width: 768px) {
+    .educacion2 {
+        margin-left: 10px;
+    }
+
+    .subtituloEducacion{
+        font-size: large;
+    }
+  }
+
+.textoEducacion {
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.btn {
+    background-color: cadetblue;
+    border-style: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: cadetblue;
+    border-style: none;
+    color:black
+} 
+
+.btn:focus {
+    background-color: cadetblue;
+    border-style: none;
+    color: #fff;
+}
+
+.card {
+    width: 80%;
+}
+
+/* ------------------------- experiencia ---------------------------- */
+
+.experiencia {
+    background-color: #fff5ef;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tituloExperiencia{
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+    color: #756860;
+    font-weight:550;
+}
+
+.misExperiencias{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width: 768px) {
+    .misExperiencias{
+        display: block;
+        padding-bottom: 10px;
+    }
+  }
+
+.misExperiencias div{
+    padding-right: 50px;
+}
+
+.misExperiencias div h4{
+    color: cadetblue;
+    text-align: center;
+}
+
+.misExperiencias div h5{
+    color: rgb(120, 183, 185);
+    text-align: center;
+}
+
+.misExperiencias div p{
+    color: #9f816f;
+    text-align: center;
+}
+
+.lista {
+    list-style-type:square;
+}
+
+::marker{
+    color: cadetblue;
+}
+
+/* ----------------- contacto -------------- */
+
+.contacto{
+    text-align: center;
+    padding: 50px;
+    background-color: cadetblue;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contacto h2{
+    margin-bottom: 10px;
+}
+
+.contacto div a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contacto div a:hover{
+    color:#756860;
+}
+
+.contacto div i{
+    padding: 10px;
+    font-size: large;
+}
