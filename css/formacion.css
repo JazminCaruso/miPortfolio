@@ -143,21 +143,20 @@ color: #333;
 .experiencia {
     background-color: #fff5ef;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .tituloExperiencia{
     padding: 30px;
     background-color: #fff;
-    text-align: center;
     color: #756860;
     font-weight:550;
 }
 
 .misExperiencias{
     padding: 20px;
-    display: flex;
     justify-content: center;
-    
 }
 
 @media (max-width: 768px) {
@@ -191,7 +190,7 @@ color: #333;
 }
 
 ::marker{
-    color: cadetblue;
+    color: rgba(255, 255, 255, 0);
 }
 
 /* ----------------- contacto -------------- */
